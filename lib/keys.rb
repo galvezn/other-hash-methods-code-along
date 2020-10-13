@@ -8,6 +8,22 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
+groceries = {
+  dairy: ["milk", "yogurt", "cheese"],
+  vegetable: ["carrots", "broccoli", "cucumbers"],
+  meat: ["chicken", "steak", "salmon"],
+  grains: ["rice", "pasta"]
+}
+
 def get_the_keys(groceries)
-  #code your solution here!
+  groceries = {
+    dairy: ["milk", "yogurt", "cheese"],
+    vegetable: ["carrots", "broccoli", "cucumbers"],
+    meat: ["chicken", "steak", "salmon"],
+    grains: ["rice", "pasta"]
+  }
+  return groceries.keys
+  return groceries.values
+  return groceries.values.flatten
+  return groceries.values.flatten.min
 end
